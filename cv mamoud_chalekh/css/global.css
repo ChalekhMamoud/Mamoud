@@ -1,0 +1,249 @@
+/*Ceci est un commentaire*/
+
+/*integration de la font*/
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* reset css cible tous les elements et rajouter des elements sur tout le site*/
+*{box-sizing: border-box;
+}
+
+html{
+    font-size: 60%;
+    padding: 0px;
+    }
+
+/*dans le body*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    color: #363636;
+        }
+
+    h1,h2,h3,h4{
+    font-size:4rem; 
+        }
+    .h5_dip{
+    font-size: 1.5rem;
+}
+    h1 {
+    border-bottom:#e4dcdc 7px solid;
+    color:#363636 ;
+    margin-top: 100px;
+    margin-bottom: 50px;
+        }
+
+    h2,h3,h4{
+    border-bottom:#e4dcdc 7px solid;
+    color:#363636 ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+        }
+
+    p3{
+    display: block;
+    padding-left: -50px;
+        }
+
+ 
+a{
+    color:#333;
+    text-decoration: none;
+        }
+
+ /*dans le header*/
+.header{ 
+    border: 1px solide  #555;
+    border-radius: 15px;
+    background: #e4dcdc;
+    flex-direction: row;
+      justify-content: center;
+      margin: 100px;
+        }
+
+
+
+    .main{
+       margin: 0px; 
+        }    
+
+    .container{
+    display: flex;
+    justify-content: space-between;
+
+        }
+
+    @media screen and (min-width:750px){
+    .container{
+    max-width: 1200px;
+    margin: auto;
+    padding:0rem;
+    justify-content:space-between;
+    justify-content:row;
+        }
+            }
+
+      
+    
+
+   
+    .list-unstyled{
+    font-size: 1.2rem;
+    list-style: none;                       
+    margin:0;
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+       }
+
+    .header_logo{
+     font-size: 1rem;                              
+        }
+
+    nav{
+    display:none;
+        }
+
+         
+    .navbar{
+    display:flex;
+    display: inline-flex;
+        }
+
+    .burger{
+    background:none;
+    border: none;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    position: relative;
+            }  
+
+    .bar {
+    display: block;
+    background:#555;            
+    width: 22px;
+    height:3px;                
+        }
+
+    .bar::before,.bar::after{
+    display: block;
+    content: "";
+    width: 22px;
+    height:3px;
+    background:black;
+    position: absolute;
+        }
+        
+    .bar::before{
+            transform : translatey(-8px); 
+           }
+           
+           .bar::after{
+            transform : translatey(-8px); 
+           }
+           
+           .bar::after{
+            bottom: 0;
+           }
+
+          .p{
+            display: flex;
+             align-items: center;
+              }
+
+        .grid_2{
+            margin:20px;
+        }
+          
+      .grid_5{
+        margin:20px;
+      }
+          
+           @media screen and (max-width:750px){
+            .navbar{ 
+            min-width: 1200px;
+        display:none;
+               }  
+           } 
+
+           .section{
+            padding: 100 0;
+           }
+      
+
+
+footer{
+    background: #333;
+    color: aliceblue;
+}
+
+
+.form input, .form textarea{
+    display: block;
+width: 100%;
+padding: 1rem;
+margin-bottom: 2rem;
+
+}
+
+.form{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 0;
+}
+.texarea{
+    height: 100px;
+}
+.container{
+display: flow-root;
+           align-items: center;
+            display: flex;
+           justify-content:space-between;
+}
+   
+.header_logo{
+
+text-align: center;
+}
+  
+footer{
+    height:"50px";
+}
+.l footer list_unstyled{
+    color:#ffffff;
+
+}
+.liste ul{
+    color: #fff;
+    list-style-type: none;
+    
+}
+
+
+
+.container_footer{
+
+    height:"5px";
+
+}
+.liste{
+    display: flex;
+}
+
+.img_fond{
+    background: url(../images/developpeur.webp) center/cover; min-height: 190vh;
+  
+}
+.h1_accueil{
+    display: flex;
+    text-decoration: none;
+    border-bottom:none;
+    flex-direction: row-reverse;justify-content: space-evenly;color: #ffffff;
+}
+.main_accuei
+  {font-size: 10%;} 
+
+.form{font-size: 20px;
+
+color:#ffffff;
+}
